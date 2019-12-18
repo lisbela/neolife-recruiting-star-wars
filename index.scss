@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+// variables
+$blue: rgb(55,132,214);
+$red: rgb(229,17,21);
+$gray: #e5e5e5;
+$light-blue: #00aced;
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #000 url(https://lisbela.github.io/neolife-recruiting-star-wars/imgs/bg.jpg);
+
+    a {
+      color: $light-blue;
+  
+      &:hover {
+        color: darken($light-blue, 10%);
+      }
+    }
+  }
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.header,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  text-align: center;
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+.header__logo {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  width: 323.15px;
+  height: 180px;
+
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+
+* {box-sizing: border-box;}
+
+.box {
+  padding: 1em;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+}
+
+
+.btn >img{
+  z-index: 3;
+  width: 350px;
+  height: 200px;
+  border: solid 1px #979797;
+  object-fit: cover;
+  object-position: center;
+}
+
+// footer
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid rgba($gray, 0.1);
+
+  > p {
+    width: 50%;
+    float: left;
+  }
+}
+.footer__fork {
+  text-align: right;
+}
