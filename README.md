@@ -13,6 +13,6 @@ Due to available time there are still improvements to be made.
 Application is available under the following link: https://codepen.io/lisbela/full/mdyRGKP .
 
 ### Planet file
-![alt text](https://raw.githubusercontent.com/lisbela/neolife-recruiting-star-wars/master/screenshots/planet.png)
+![alt text](https://raw.githubusercontent.com/lisbela/neolife-recruiting-star-wars/master/screenshots/planets.png)
 
 Application is available under the following link: https://codepen.io/lisbela/pen/gObLqZB .
