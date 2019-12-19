@@ -1,7 +1,7 @@
 # The Star Wars totem
 An encyclopedia of planets in the series.
 Download from API and display Star Wars planets details.
-API available under the followinf link: https://swapi.co/
+API available under the following link: https://swapi.co/
 
 # # Screenshots
 # # # Home Page
