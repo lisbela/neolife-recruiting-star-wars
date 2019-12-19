@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+ body {
+	 font-family: font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", 'Roboto', sans-serif;
+	 padding-top: 20px;
+	 padding-bottom: 20px;
+	 background: #000 url(https://lisbela.github.io/neolife-recruiting-star-wars/imgs/bg.jpg);
+	 text-align: center;
+}
+ body a {
+	 color: #00aced;
+}
+ body a:hover {
+	 color: #0087ba;
+}
+ .container {
+	 width: 100%;
+	 max-width: 1140px;
+	 margin: 0 auto;
+}
+ .header, .footer {
+	 padding-left: 15px;
+	 padding-right: 15px;
+}
+ .header {
+	 text-align: center;
+}
+ .header h3 {
+	 margin-top: 0;
+	 margin-bottom: 0;
+	 line-height: 40px;
+	 padding-bottom: 19px;
+}
+ .header__logo {
+	 padding-top: 20px;
+	 width: 50%;
+	 max-width: 300px;
+}
+ .container-narrow > hr {
+	 margin: 30px 0;
+}
+/* Responsive: Portrait tablets and up */
+ @media screen and (min-width: 768px) {
+	 .container {
+		 max-width: 730px;
+	}
+	 .header, .footer {
+		 padding-left: 0;
+		 padding-right: 0;
+	}
+	 .header {
+		 margin-bottom: 30px;
+	}
+}
+ .main {
+	 position: relative;
+	 padding: 40px 0 100px;
+}
+ .ficha {
+	 position: relative;
+	 padding: 40px 20px 0px 80px;
+	 text-align: left;
+}
+ .footer {
+	 padding-top: 19px;
+	 color: #777;
+	 border-top: 1px solid rgba(229, 229, 229, 0.1);
+}
+ .footer > p {
+	 width: 50%;
+	 float: left;
+}
+ .footer__fork {
+	 text-align: right;
+}
+ .wow {
+	 color: #fff;
+}
+ #planet {
+	 text-transform: uppercase;
+}
+ #residents {
+	 padding-top: 15px;
+}
+ #films {
+	 padding-top: 15px;
+}
+ 
