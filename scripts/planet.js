@@ -108,7 +108,7 @@ function fillScreen(name, population, rotation_period, orbital_period, diameter,
      <ul><b>ROTATION PERIOD:</b> ${rotation_period} DAYS</ul>
      <ul><b>ORBITAL PERIOD:</b> ${orbital_period} DAYS</ul>
      <ul><b>DIAMETER:</b> ${diameter} KM</ul>
-     <ul><b>GRAVITY:</b> ${gravity} STANDARD</ul>
+     <ul><b>GRAVITY:</b> ${gravity} </ul>
      <ul><b>TERRAIN:</b> ${terrain}</ul>
      <ul><b>SURFACE WATER:</b> ${surface_water}%</ul>
      <ul><b>CLIMATE:</b> ${climate}</ul>
