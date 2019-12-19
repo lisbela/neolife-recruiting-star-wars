@@ -31,3 +31,5 @@
 - Utilizar AngularJS para enviar (POST) o valor do identificador do planeta clicado pelo usuário para a página planet.html.
 - Utilizar AngularJS para receber (GET) o identificador do planeta clicado e, assim, criar a imagem do planeta da ficha,
  bem como puxar os dados corretos da API.
+- Criar animação para o background.
+- Utilizar protractor para testes automatizados.
